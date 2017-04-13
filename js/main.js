@@ -40,12 +40,16 @@ $(document).ready(function(){
      * list of all possible behaviors to fill the drop down form
      */
     var catLadyBehaviors = [
-        new Behavior("agrees that there's a cat gif for everything", 3),
+        new Behavior("agrees that there's a cat gif for everything", 1),
         new Behavior("own one dog", -2),
         new Behavior("own one cat", 2),
-        new Behavior("own more than one cat", 5),
-        new Behavior("own more than one dog", -5),
-        new Behavior("takes selfies with cats", 4),
+        new Behavior("own more than one cat", 4),
+        new Behavior("own more than one dog", -4),
+        new Behavior("takes selfies with cats", 3),
+        new Behavior("believes dogs are better at cuddling than cats", -3),
+        new Behavior("doesn't appreciate the joy of a cardboard box", -1),
+        new Behavior("has moved to a new neighborhood to appease cat", 5),
+        new Behavior("thinks leaving the cat at home while on vacation is okay", -5),
         // -----------------------------------------------------------------------------------------
         // TODO: CHALLENGE 1
         // add some more behaviors cat lady behaviors here to customize your app!
